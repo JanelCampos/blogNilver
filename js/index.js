@@ -2,7 +2,7 @@
 /*  English Language default
 /**********************************************/
 (function enDefLang() {
-  let esOpt = document.getElementsByClassName('es-opt')
+  let esOpt = document.getElementsByClassName('en-opt')
   for (let i = 0; i < esOpt.length; i++) {
     esOpt[i].style.display = 'none'
   }
@@ -29,8 +29,8 @@ window.addEventListener("load", () => {
 /**********************************************/
 function selectLan(el) {
   let lang = el.selectedIndex
-  let esOpt = document.getElementsByClassName('es-opt')
-  let enOpt = document.getElementsByClassName('en-opt')
+  let esOpt = document.getElementsByClassName('en-opt')
+  let enOpt = document.getElementsByClassName('es-opt')
 
   // english
   if (lang === 0) {
