@@ -106,7 +106,7 @@ a:hover {
 }
 
 .hero-princ-content.text .title::after {
-  content: "(Nilver Medina)";
+  content: "(Nilber Medina)";
   font-size: 25px;
   font-family: var(--schoolbell);
 }
